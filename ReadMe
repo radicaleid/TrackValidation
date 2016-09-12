@@ -1,6 +1,9 @@
 This package is used for upgrade tracking validation
 
-#checkout the code
+#checkout the code in git
+git clone https://github.com/radicaleid/TrackValidation.git
+
+#checkout the code in svn
 svn co $SVNPERF/CombPerf/Tracking/xAOD/TrackValidation ./TrackValidation
 
 #Compile and run the code
