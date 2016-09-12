@@ -4,6 +4,12 @@ This package is used for upgrade tracking validation
 git clone https://github.com/radicaleid/TrackValidation.git
 #update
 git pull --rebase
+#to be able to push the changes
+git remote set-url  origin https://<username>:<password>@github.com/radicaleid/TrackValidation.git
+# then do
+git add
+git commit
+git push
 
 #checkout the code in svn
 svn co $SVNPERF/CombPerf/Tracking/xAOD/TrackValidation ./TrackValidation
